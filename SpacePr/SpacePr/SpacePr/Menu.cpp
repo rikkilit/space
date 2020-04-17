@@ -17,7 +17,7 @@ void Menu::update(SpaceShip *ship) {
 
 void Menu::draw(sf::RenderWindow *window) {
 	sf::Text text("", font, 40);
-	text.setColor(sf::Color::Color(255, 255, 200, 200));
+	text.setFillColor(sf::Color::Color(255, 255, 200, 200));
 
 	std::ostringstream mySteam1;
 	std::ostringstream mySteam2;
